@@ -1,0 +1,30 @@
+user data for autoscaling 
+#!/bin/bash
+sudo yum install -y httpd
+sudo service httpd start
+hostname >> /var/www/html/index.html
+echo "welcome autoscaling" >> /var/www/html/index.html
+
+
+linux script for cpu spike
+fulload() { dd if=/dev/zero of=/dev/null | 
+	dd if=/dev/zero of=/dev/null |
+ 	dd if=/dev/zero of=/dev/null | 
+	dd if=/dev/zero of=/dev/null & }; 
+fulload; read; killall dd
+
+dd if=/dev/zero of=/dev/null
+
+linux script to get cpu idle 
+killall
+
+welcome added at 1138 for s3 testing
+
+
+for rds 
+remember username and password in RDS
+sudo yum update
+sudo yum install mysql-server 
+sudo service mysqld service
+sudo service mysqld start
+mysql -h endpoint adress -P 3306 -u username -p

@@ -1,0 +1,16 @@
+  1  git clone https://github.com/nayaknanditha/TEST.git
+    2  ls
+    3  cd TEST
+    4  LS
+    5  vi index.html
+    6  git add index.html
+    7  git status
+    8  git commit -m 'file added'
+    9  git config --global user.email "nayaknanditha@yahoo.com"
+   10  git config --global user.name "nayaknanditha"
+   11  git push
+   12  git pull
+   15  git checkout -b dev
+   16  git checkout master
+   18  history
+
